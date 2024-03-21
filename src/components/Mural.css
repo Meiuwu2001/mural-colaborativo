@@ -1,0 +1,51 @@
+.mural {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .mural h1 {
+    text-align: center;
+  }
+  
+  .mural-contenido {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .elemento-mural {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  .elemento-mural img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Asegura que la imagen no se vea afectada por otros elementos en línea */
+  }
+  .mural-form {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .mural-form input[type="text"] {
+    width: calc(100% - 80px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .mural-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .mural-form button:hover {
+    background-color: #0056b3;
+  }
+  
